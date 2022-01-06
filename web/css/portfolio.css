@@ -1,0 +1,32 @@
+:root {
+    --main-bg-color: #41334f;
+    --secondary-bg-color: #a5c7ad;
+    --terciary-bg-color: #209c92;
+}
+
+.interna_portfolio {
+    background: url("../assets/portfolio/portfolio-bg.png") no-repeat center;
+    background-size: cover;
+}
+
+.quote-cliente {
+    padding: 60px 0;
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+.quote-cliente p {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: italic;
+}
+
+.quote-cliente cite {
+    font-size: 18px;
+    font-weight: bold;
+    float: right;
+    font-style: normal;
+    margin-top: 20px;
+}
