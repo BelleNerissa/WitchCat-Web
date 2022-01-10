@@ -6,13 +6,13 @@ use PHPMailer\PHPMailer\Exception;
 require "./PHPMailer/src/Exception.php";
 require "./PHPMailer/src/PHPMailer.php";
 require "./PHPMailer/src/SMTP.php";
-  
+
 // Mudar Aqui o e-mail
 $email_envio = ""; // E-mail do site (ex: contato@seusite.com)
 $email_pass = ""; // Senha do e-mail
 
-$site_name = ""; // Nome do Site
-$site_url = ""; // URL do Site
+$site_name = "WitchCat"; // Nome do Site
+$site_url = "www.witchcat.com.br"; // URL do Site
 
 $host_smtp = ""; // HOST SMTP Ex: smtp.domain.com.br
 $host_port = ""; // Porta do Host, geralmente 465 ou 587

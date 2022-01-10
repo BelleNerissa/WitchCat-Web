@@ -7,6 +7,7 @@ $nome_site = "WitchCat";
 
 $email_user = $_POST["email"];
 $nome_user = $_POST["nome"];
+$email_site = "contato@witchcat.com.br";
 
 $body_content = "";
 foreach( $_POST as $field => $value) {
