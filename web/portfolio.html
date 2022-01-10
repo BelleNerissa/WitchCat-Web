@@ -6,11 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WitchCat - Portfólio</title>
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/grid.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/portfolio.css" />
+    <meta name="description" content="Desde 2010 somos uma família de Belo Horizonte que confecciona baralhos de tarot de extrema qualidade e dedicados à necessidade de cada um de seus oráculos." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="WitchCat - Conheça nossos projetos" />
+    <meta property="og:description" content="Desde 2010 somos uma família de Belo Horizonte que confecciona baralhos de tarot de extrema qualidade e dedicados à necessidade de cada um de seus oráculos." />
+    <meta property="og:url" content="http://witchcat.com.br/portfolio.html" />
+    <meta property="og:image" content="http://witchcat.com.br/assets/og-image.png" />
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script>
+        document.documentElement.classList.add("js");
+    </script>
 </head>
 
 <body>
@@ -39,21 +46,34 @@
     </header>
     <section class="introducao-interna interna_portfolio">
         <div class="container">
-            <h1>Portfólio</h1>
-            <p>Conheça nossos projetos</p>
+            <h1 data-anime="400" class="fadeInDown">Portfólio</h1>
+            <p data-anime="700" class="fadeInDown">Conheça nossos projetos</p>
         </div>
     </section>
 
-    <section class="container">
+    <div class="container fadeInDown" data-slide="quote-slide" data-anime="1000">
         <blockquote class="quote-cliente">
-            <p>"Excelente o atendimento da WitchCat, desde o primeiro contato até a efetivação do meu pedido. Com certeza será minha referência para futuras aquisições de baralhos de tarot"
+            <p>
+                "Excelente o atendimento da WitchCat, desde o primeiro contato até a efetivação do meu pedido. Com certeza será minha referência para futuras aquisições de baralhos de tarot"
             </p>
             <cite>Barbara Moss</cite>
         </blockquote>
-    </section>
+        <blockquote class="quote-cliente">
+            <p>
+                "Excelente o atendimento da WitchCat, desde o primeiro contato até a efetivação do meu pedido. Com certeza será minha referência para futuras aquisições de baralhos de tarot"
+            </p>
+            <cite>Antonio Diaz</cite>
+        </blockquote>
+        <blockquote class="quote-cliente">
+            <p>
+                "Excelente o atendimento da WitchCat, desde o primeiro contato até a efetivação do meu pedido. Com certeza será minha referência para futuras aquisições de baralhos de tarot"
+            </p>
+            <cite>Vânia Reis</cite>
+        </blockquote>
+    </div>
 
-    <section class="portfolio">
-        <div class="container">
+    <div class="portfolio fadeInDown" data-anime="1000">
+        <div class="container" data-slide="portifolio-slide">
             <ul class="portfolio_lista">
                 <li class="grid-8">
                     <img src="assets/portfolio/portfolio-lua.png" alt="portfolio-lua" />
@@ -65,31 +85,38 @@
                     <img src="assets/portfolio/portfolio-mulheres.png" alt="portfolio-mulheres" />
                 </li>
             </ul>
-
+            <ul class="portfolio_lista">
+                <li class="grid-8">
+                    <img src="assets/portfolio/portfolio-protetores.png" alt="portfolio-protetores" />
+                </li>
+                <li class="grid-8">
+                    <img src="assets/portfolio/portfolio-lua.png" alt="portfolio-lua" />
+                </li>
+                <li class="grid-16">
+                    <img src="assets/portfolio/portfolio-mulheres.png" alt="portfolio-mulheres" />
+                </li>
+            </ul>
         </div>
-    </section>
+    </div>
 
-
-
-
-    <section class="divisor_block_quote ">
-        <blockquote class="quote-externo container ">
+    <div class="divisor_block_quote">
+        <blockquote class="quote-externo container">
             <p>
                 “Não há destino escrito nas estrelas que não tropece nas pegadas de suas escolhas”
             </p>
             <cite>O Futuro</cite>
         </blockquote>
-    </section>
+    </div>
     <footer>
-        <div class="footer ">
-            <div class="container ">
-                <div class="grid-7 footer_historia ">
+        <div class="footer">
+            <div class="container">
+                <div class="grid-7 footer_historia">
                     <h3>Nossa História</h3>
                     <p>
                         Desde 2010 somos uma família orgulhosa de confeccionar baralhos de tarot de extrema qualidade e dedicados à necessidade de cada um de seus oráculos.
                     </p>
                 </div>
-                <div class="grid-4 footer_contato ">
+                <div class="grid-4 footer_contato">
                     <h3>Contato</h3>
                     <ul>
                         <li>🤍 31 99999-9999</li>
@@ -97,35 +124,37 @@
                         <li>💚 Belo Horizonte, MG</li>
                     </ul>
                 </div>
-                <div class="grid-4 footer_redes ">
+                <div class="grid-4 footer_redes">
                     <h3>Redes Sociais</h3>
                     <ul>
                         <li>
-                            <a href="https://www.instagram.com " target="_blank "><img src="assets/home/instagram (1) 1.png " alt="logo_instagran " /></a>
+                            <a href="https://www.instagram.com " target="blank "><img src="assets/home/instagram.png " alt="logo_instagram_witchcat " /></a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com " target="_blank ">
-                                <img src="assets/home/facebook (3) 1.png " alt="logo_facebook " />
+                            <a href="https://www.facebook.com " target="blank ">
+                                <img src="assets/home/facebook.png " alt="logo_facebook_witchcat" />
                             </a>
                         </li>
-                        </li>
                         <li>
-                            <a href="https://www.whatsapp.com " target="_blank ">
-                                <img src="assets/home/whatsapp (4) 1.png " alt="logo_whatsapp " />
+                            <a href="https://www.whatsapp.com " target="blank ">
+                                <img src="assets/home/whatsapp.png " alt="logo_whatsapp_witchcat" />
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="copy ">
-            <div class="container ">
-                <div class="grid-16 ">
+        <div class="copy">
+            <div class="container">
+                <div class="grid-16">
                     <p>WitchCat 2021 - Alguns direitos reservados</p>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="js/simple-anime.js"></script>
+    <script src="js/simple-slide.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

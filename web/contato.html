@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WitchCat - Contato</title>
+    <meta name="description" content="Desde 2010 somos uma família de Belo Horizonte que confecciona baralhos de tarot de extrema qualidade e dedicados à necessidade de cada um de seus oráculos." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="WitchCat - Tire suas dúvidas com a gente" />
+    <meta property="og:description" content="Desde 2010 somos uma família de Belo Horizonte que confecciona baralhos de tarot de extrema qualidade e dedicados à necessidade de cada um de seus oráculos." />
+    <meta property="og:url" content="http://witchcat.com.br/contato.html" />
+    <meta property="og:image" content="http://witchcat.com.br/assets/og-image.png" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+        document.documentElement.classList.add("js");
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="grid-4">
+                <img src="assets/witchcat.svg" alt="Witchcat" />
+            </a>
+            <nav class="header_menu grid-12">
+                <ul>
+                    <li>
+                        <a href="sobre.html">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="produtos.html">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfólio</a>
+                    </li>
+                    <li>
+                        <a href="contato.html" class="menu_ativo">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="introducao-interna interna_portfolio">
+        <div class="container">
+            <h1 data-anime="400" class="fadeInDown">Contato</h1>
+            <p data-anime="700" class="fadeInDown">Tire suas dúvidas com a gente</p>
+        </div>
+    </section>
+
+    <section class="contato fadeInDown" data-anime="1000">
+        <div class="container">
+            <form class="grid-10 form formphp" method="POST" action="./enviar-sendgrid.php" id="form_contato">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required />
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" name="telefone" />
+                <!-- Campos de invalidação para bots (invisivel) -->
+                <label class="invisible">Campo para invalidação (Não Preencha caso queira um envio
+            válido)</label
+          >
+          <input class="invisible" name="leaveblank" type="text" />
+          <label class="invisible"
+            >Campo para invalidação (Não Altere caso queira um envio
+            válido)</label
+          >
+          <input
+            class="invisible"
+            name="dontchange"
+            type="text"
+            value="http://"
+          />
+
+          <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" required></textarea>
+                <button class="btn" type="submit" id="enviar" name="enviar">
+            Enviar
+          </button>
+            </form>
+            <div class="grid-6 contato_dados">
+                <h3>Dados</h3>
+                <span>+55 21 99999-999</span>
+                <span>orcamento@witchcat.com</span>
+                <p>Rua XXXX - Bairro YYYY</p>
+                <p>Belo Horizonte - MG - Brasil</p>
+                <div class=".footer_redes">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com " target="blank ">
+                                <img src="assets/home/instagram.png " alt="logo_instagram_witchcat " /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com " target="blank ">
+                                <img src="assets/home/facebook.png " alt="logo_facebook_witchcat" />
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.whatsapp.com " target="blank ">
+                                <img src="assets/home/whatsapp.png " alt="logo_whatsapp_witchcat" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="endereco grid-16">
+                <a href="https://www.google.com/maps/place/Av.+Brasil,+1654+-+Santa+Efigênia,+Belo+Horizonte+-+MG,+30140-080/@-19.9309563,-43.9365172,17z/data=!3m1!4b1!4m5!3m4!1s0xa699dd53846171:0xa58bccadaa8e1055!8m2!3d-19.9309563!4d-43.9343285">
+                    <img src="assets/sobre/endereco.png" alt="endereco da witchcat" /></a>
+            </div>
+        </div>
+    </section>
+
+    <div class="divisor_block_quote">
+        <blockquote class="quote-externo container">
+            <p>
+                “Não há destino escrito nas estrelas que não tropece nas pegadas de suas escolhas”
+            </p>
+            <cite>O Futuro</cite>
+        </blockquote>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="grid-7 footer_historia">
+                    <h3>Nossa História</h3>
+                    <p>
+                        Desde 2010 somos uma família orgulhosa de confeccionar baralhos de tarot de extrema qualidade e dedicados à necessidade de cada um de seus oráculos.
+                    </p>
+                </div>
+                <div class="grid-4 footer_contato">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li>🤍 31 99999-9999</li>
+                        <li>💜 contato@witchcat.com.br</li>
+                        <li>💚 Belo Horizonte, MG</li>
+                    </ul>
+                </div>
+                <div class="grid-4 footer_redes">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com " target="blank "><img src="assets/home/instagram.png " alt="logo_instagram_witchcat " /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com " target="blank ">
+                                <img src="assets/home/facebook.png " alt="logo_facebook_witchcat" />
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.whatsapp.com " target="blank ">
+                                <img src="assets/home/whatsapp.png " alt="logo_whatsapp_witchcat" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <div class="container">
+                <div class="grid-16">
+                    <p>WitchCat 2021 - Alguns direitos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/simple-anime.js"></script>
+    <script src="js/simple-form.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
